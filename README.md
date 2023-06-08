@@ -10,6 +10,15 @@ To run the project, it is necessary to have:
 ## Instalations
 To set up the project, perform the following:
 1. Clone the project repository to your local machine
+```
+git clone https://github.com/Rafyakbar02/portfolio-web.git
+```
 2. Navigate to the project directory
+```
+cd portfolio-website
+```
 3. Install the project dependencies using npm
+```
+npm install
+```
 Done! The project is ready to be used.

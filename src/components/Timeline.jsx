@@ -2,9 +2,10 @@ import { experiences, educations } from "../constants";
 
 const Timeline = ({ heading }) => {
   let products = heading == "Work Experience" ? experiences : educations;
+  let timelineID = heading == "Work Experience" ? "experience" : "education";
 
   return (
-    <div className="w-full py-16 px-36">
+    <div className="w-full py-16 px-36" id={timelineID}>
       <h2 className="text-4xl font-semibold text-center mb-16">{heading}</h2>
       <ul>
         {products.map((product, index) => (

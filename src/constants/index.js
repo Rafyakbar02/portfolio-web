@@ -65,5 +65,13 @@ export const projects = [
     date: "",
     title: "Student Management",
     language: "Python",
+    link: "https://github.com/Rafyakbar02/StudentManagement",
+  },
+  {
+    id: "project-2",
+    date: "",
+    title: "Stockify",
+    language: "Python, Django, NumPy",
+    link: "https://github.com/SubugFcz/Hacklytics23",
   },
 ];

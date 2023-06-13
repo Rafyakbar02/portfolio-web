@@ -3,9 +3,11 @@ import ToggleSwitch from "./ToggleSwitch";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white h-20 flex">
+    <nav className="bg-white h-20 flex" id="home">
       <div className="flex justify-between items-center my-5 mx-10 w-full">
-        <h1 className="font-semibold text-xl">rafyakbar</h1>
+        <a className="font-semibold text-xl" href="#home">
+          rafyakbar
+        </a>
         <ul className="flex space-x-10">
           {navLinks.map((nav, index) => (
             <li key={nav.id}>

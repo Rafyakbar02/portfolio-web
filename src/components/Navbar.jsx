@@ -23,7 +23,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <ToggleSwitch />
       </div>
     </nav>
   );

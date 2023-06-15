@@ -3,8 +3,12 @@ import { resume, photo } from "../assets";
 const Hero = () => {
   return (
     <div className="p-10 md:py-16 md:px-36 scroll-mt-12" id="Home">
-      <div className="mx-auto h-64 w-64">
-        <img src={photo} alt="photo" className="rounded-full" />
+      <div className="mx-auto my-7 h-64 w-64">
+        <img
+          src={photo}
+          alt="photo"
+          className="rounded-full ring-2 ring-cyan-950 ring-offset-4"
+        />
       </div>
       <div className="items-center text-center my-5">
         <h1 className="text-3xl md:text-6xl font-black mb-5">Rafy Akbar</h1>

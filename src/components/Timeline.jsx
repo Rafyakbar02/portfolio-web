@@ -5,15 +5,21 @@ const Timeline = ({ heading }) => {
   let timelineID = heading == "Work Experience" ? "experience" : "education";
 
   return (
-    <div className="w-full py-16 px-36" id={timelineID}>
-      <h2 className="text-4xl font-semibold text-center mb-16">{heading}</h2>
+    <div className="p-10 md:py-16 md:px-36 scroll-mt-12" id={timelineID}>
+      <h2 className="text-3xl md:text-4xl font-semibold text-center mb-16">
+        {heading}
+      </h2>
       <ul>
         {products.map((product, index) => (
           <li className="mb-16">
-            <h3 className="mb-3">{product.date}</h3>
-            <h2 className="text-2xl font-semibold mb-3">{product.title}</h2>
-            <p className="mb-3 italic">{product.location}</p>
-            <ul className="list-disc ml-6">
+            <h3 className="text-sm md:text-base mb-3">{product.date}</h3>
+            <h2 className="text-lg md:text-2xl font-semibold mb-3">
+              {product.title}
+            </h2>
+            <p className="text-sm md:text-base mb-3 italic">
+              {product.location}
+            </p>
+            <ul className="text-sm md:text-base list-disc ml-6">
               {product.content.map((list, index) => (
                 <li>{list}</li>
               ))}

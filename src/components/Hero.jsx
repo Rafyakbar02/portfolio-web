@@ -2,14 +2,14 @@ import { resume } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="w-full p-36">
-      <div className="items-center text-center p-5">
-        <h1 className="text-6xl font-black mb-5">Rafy Akbar</h1>
-        <h2 className="text-xl mb-8">Aspiring Software Developer</h2>
+    <div className="p-5 sm:p-20 scroll-mt-12" id="Home">
+      <div className="items-center text-center my-16">
+        <h1 className="text-3xl md:text-6xl font-black mb-5">Rafy Akbar</h1>
+        <h2 className="md:text-xl mb-10">Aspiring Software Developer</h2>
         <a
           href={resume}
           target="_blank"
-          className="transition ease-in px-6 py-3 font-semibold rounded-lg bg-slate-900 text-white hover:bg-slate-800"
+          className="transition-all ease-in px-6 py-3 font-semibold rounded-lg bg-slate-900 text-white hover:bg-slate-800 hover:text-lg"
         >
           Download Resume
         </a>

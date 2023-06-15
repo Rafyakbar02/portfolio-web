@@ -1,29 +1,49 @@
+import { useState } from "react";
 import { navLinks } from "../constants";
-import ToggleSwitch from "./ToggleSwitch";
+import { menu, close } from "../assets";
 
 const Navbar = () => {
+  const [toggle, setToggle] = useState(false);
+
   return (
-    <nav className="bg-white h-20 flex" id="home">
-      <div className="flex justify-between items-center my-5 mx-10 w-full">
+    <nav className="bg-white sm:flex sm:justify-between sticky top-0 drop-shadow w-full p-3">
+      <div className="flex justify-between items-center">
         <a
-          className="font-semibold text-xl hover:text-neutral-700 hover:scale-105 transition ease-in"
-          href="#home"
+          className="font-semibold text-base hover:text-neutral-700 hover:scale-105 transition ease-in mx-4"
+          href="#Home"
         >
           rafyakbar
         </a>
-        <ul className="flex space-x-10">
-          {navLinks.map((nav, index) => (
-            <li
-              key={nav.id}
-              className="hover:text-neutral-700 hover:scale-105 transition ease-in"
-            >
-              <a href={`#${nav.id}`} scroll={false}>
-                {nav.title}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <div className="sm:hidden flex flex-1 justify-end items-center">
+          <img
+            src={toggle ? close : menu}
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain"
+            onClick={() => setToggle((prev) => !prev)}
+          />
+        </div>
       </div>
+      <ul
+        className={`${
+          toggle ? "block" : "hidden"
+        } sm:flex sm:items-center justify-end mt-2 sm:mt-0`}
+      >
+        {navLinks.map((nav, index) => (
+          <li
+            key={nav.id}
+            className="my-3 sm:my-0 mx-4 text-sm hover:text-neutral-700"
+          >
+            <a
+              className="align-middle"
+              href={`#${nav.id}`}
+              scroll={false}
+              onClick={() => setToggle((prev) => !prev)}
+            >
+              {nav.title}
+            </a>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 };

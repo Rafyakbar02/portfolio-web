@@ -1,4 +1,11 @@
-import { Navbar, Hero, Timeline, ProjectList, Contact } from "./components";
+import {
+  Navbar,
+  Hero,
+  Timeline,
+  ProjectList,
+  Contact,
+  Footer,
+} from "./components";
 import React from "react";
 import { navLinks } from "./constants";
 
@@ -11,6 +18,7 @@ function App() {
       <Timeline heading={"Education"} />
       <ProjectList />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { resume, photo } from "../assets";
 const Hero = () => {
   return (
     <div className="p-10 md:py-16 md:px-36 scroll-mt-12" id="Home">
-      <div className="mx-auto my-7 h-64 w-64">
+      <div className="mx-auto mb-7 h-48 w-48">
         <img
           src={photo}
           alt="photo"
@@ -11,7 +11,7 @@ const Hero = () => {
         />
       </div>
       <div className="items-center text-center my-5">
-        <h1 className="text-3xl md:text-6xl font-black mb-5">Rafy Akbar</h1>
+        <h1 className="text-4xl md:text-6xl font-black mb-5">Rafy Akbar</h1>
         <h2 className="md:text-xl mb-10">Aspiring Software Developer</h2>
         <a
           href={resume}

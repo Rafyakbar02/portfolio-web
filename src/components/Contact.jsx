@@ -3,7 +3,7 @@ import { github, linkedin } from "../assets";
 
 const Contact = () => {
   return (
-    <div className="p-5">
+    <div className="p-10">
       <h2 className="text-xl font-semibold text-center mb-8">Find me on</h2>
       <div className="flex flex-wrap justify-center gap-8">
         <a

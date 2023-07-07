@@ -74,4 +74,22 @@ export const projects = [
       "A stock analysis and prediction tool that uses both technical analysis to rate and rank companies based on their potential for investment.",
     link: "https://github.com/SubugFcz/Hacklytics23",
   },
+  {
+    id: "project-3",
+    date: "",
+    title: "Diskusi",
+    language: "Next.js, React, Tailwind",
+    content:
+      "A Reddit-inspired forum site designed to host and facilitate meaningful discussions among individuals with shared interests.",
+    link: "https://github.com/Rafyakbar02/forum-site",
+  },
+  {
+    id: "project-4",
+    date: "",
+    title: "Portfolio Website",
+    language: "React, Vite, Tailwind",
+    content:
+      "A portfolio website project designed to showcase my skills, projects, and achievements to potential employers, which you are currently viewing.",
+    link: "https://github.com/Rafyakbar02/portfolio-web",
+  },
 ];

@@ -1,11 +1,16 @@
 import React from "react";
 
-const ProjectCard = ({ title, language, link }) => {
+const ProjectCard = ({ title, language, link, content }) => {
   return (
-    <div className="bg-slate-300 p-11 text-center rounded-3xl">
-      <h1 className="text-lg font-semibold mb-1">{title}</h1>
-      <p className="text-sm md:text-base italic mb-1">{language}</p>
-      <a className="text-sm text-sky-800" href={link} target="_blank">
+    <div className="bg-white p-7 sm:p-11 rounded-3xl shadow border-gray-200 content-center max-w-md">
+      <p className="text-gray-600 mb-2 text-xs">{language}</p>
+      <h1 className="text-xl font-semibold mb-2">{title}</h1>
+      <p className="text-sm mb-4">{content}</p>
+      <a
+        className="px-3 py-2 bg-slate-900 text-sm text-white rounded-lg"
+        href={link}
+        target="_blank"
+      >
         See Github {">"}
       </a>
     </div>

@@ -61,6 +61,8 @@ export const projects = [
     date: "",
     title: "Student Management",
     language: "Python",
+    content:
+      "A simple student database management app with features such as adding, removing, and searching for students.",
     link: "https://github.com/Rafyakbar02/StudentManagement",
   },
   {
@@ -68,6 +70,8 @@ export const projects = [
     date: "",
     title: "Stockify",
     language: "Python, Django, NumPy",
+    content:
+      "A stock analysis and prediction tool that uses both technical analysis to rate and rank companies based on their potential for investment.",
     link: "https://github.com/SubugFcz/Hacklytics23",
   },
 ];

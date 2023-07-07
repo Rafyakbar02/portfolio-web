@@ -12,6 +12,7 @@ const ProjectList = () => {
             title={project.title}
             language={project.language}
             link={project.link}
+            content={project.content}
           />
         ))}
       </div>

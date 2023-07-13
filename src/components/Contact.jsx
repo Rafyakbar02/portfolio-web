@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="p-10">
       <h2 className="text-xl font-semibold text-center mb-8">Find me on</h2>
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-center gap-8 mb-16">
         <a
           className="flex items-center mr-8 hover:text-neutral-700"
           href="https://github.com/Rafyakbar02"

@@ -46,9 +46,11 @@ const Navbar = () => {
             </a>
           </li>
         ))}
-        <button className="transition-all ease-in px-4 py-1.5 mx-4 rounded-lg bg-slate-900 text-white hover:bg-slate-800 hover:rounded-3xl">
+        {/*
+          <button className="transition-all ease-in px-4 py-1.5 mx-4 rounded-lg bg-slate-900 text-white hover:bg-slate-800 hover:rounded-3xl">
           Dark Mode
         </button>
+        */}
       </ul>
     </nav>
   );

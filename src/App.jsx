@@ -7,7 +7,6 @@ import {
   Footer,
 } from "./components";
 import React from "react";
-import { navLinks } from "./constants";
 
 function App() {
   return (

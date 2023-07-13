@@ -2,12 +2,15 @@ import { resume, photo } from "../assets";
 
 const Hero = () => {
   return (
-    <div className="p-10 md:py-16 md:px-36 scroll-mt-12" id="Home">
+    <div
+      className="p-10 md:py-16 md:px-36 scroll-mt-12 dark:bg-slate-900 dark:text-white"
+      id="Home"
+    >
       <div className="mx-auto mb-7 h-48 w-48">
         <img
           src={photo}
           alt="photo"
-          className="rounded-full ring-2 ring-cyan-950 ring-offset-4"
+          className="rounded-full ring-2 ring-slate-900 dark:ring-white ring-offset-4"
         />
       </div>
       <div className="items-center text-center my-5">
@@ -16,7 +19,7 @@ const Hero = () => {
         <a
           href={resume}
           target="_blank"
-          className="transition-all ease-in px-6 py-3 font-medium rounded-lg bg-slate-900 text-white hover:bg-slate-800 hover:rounded-3xl"
+          className="transition-all ease-in px-6 py-3 font-medium rounded-lg bg-slate-900 dark:bg-white text-white dark:text-slate-900  hover:rounded-3xl"
         >
           Download Resume
         </a>

@@ -5,7 +5,10 @@ const Timeline = ({ heading }) => {
   let timelineID = heading == "Work Experience" ? "experience" : "education";
 
   return (
-    <div className="p-10 md:py-16 md:px-36 scroll-mt-12" id={timelineID}>
+    <div
+      className="p-10 md:py-16 md:px-36 scroll-mt-12 dark:bg-slate-900 dark:text-white"
+      id={timelineID}
+    >
       <h2 className="text-3xl md:text-4xl font-semibold text-center mb-16">
         {heading}
       </h2>

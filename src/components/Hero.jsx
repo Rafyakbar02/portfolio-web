@@ -15,7 +15,9 @@ const Hero = () => {
       </div>
       <div className="items-center text-center my-5">
         <h1 className="text-4xl md:text-6xl font-black mb-5">Rafy Akbar</h1>
-        <h2 className="md:text-xl mb-10">Aspiring Software Developer</h2>
+        <h2 className="md:text-lg text-neutral-700 dark:text-neutral-300 mb-10">
+          Aspiring Software Developer
+        </h2>
         <a
           href={resume}
           target="_blank"

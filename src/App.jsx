@@ -14,7 +14,7 @@ function App() {
       >
         <div className="flex justify-between items-center">
           <a
-            className="font-semibold text-base  dark:hover:text-neutral-300 hover:text-neutral-700 hover:scale-105 transition ease-in mx-4"
+            className="font-semibold text-xl tracking-widest  dark:hover:text-neutral-300 hover:text-neutral-700 mx-4"
             href="#Home"
           >
             rafyakbar
@@ -36,7 +36,7 @@ function App() {
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className="my-3 sm:my-0 mx-4 text-sm hover:text-neutral-700 dark:hover:text-neutral-300"
+              className="my-3 sm:my-0 mx-4 text-sm font-thin hover:text-neutral-700 dark:hover:text-neutral-300"
             >
               <a
                 className="align-middle"

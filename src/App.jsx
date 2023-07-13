@@ -23,7 +23,7 @@ function App() {
             <img
               src={toggle ? close : menu}
               alt="menu"
-              className="w-[28px] h-[28px] object-contain"
+              className="w-[28px] h-[28px] object-contain dark:invert"
               onClick={() => setToggle((prev) => !prev)}
             />
           </div>

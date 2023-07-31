@@ -21,7 +21,7 @@ const Hero = () => {
         <a
           href={resume}
           target="_blank"
-          className="transition-all ease-in px-6 py-3 font-medium rounded-lg bg-slate-900 dark:bg-white text-white dark:text-slate-900  hover:rounded-3xl"
+          className="transition-all ease-in px-6 py-3 font-medium rounded-lg bg-slate-900 dark:bg-white text-white dark:text-slate-900  hover:rounded-3xl hover:bg-slate-700"
         >
           Download Resume
         </a>

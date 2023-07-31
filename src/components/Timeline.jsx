@@ -14,7 +14,7 @@ const Timeline = ({ heading }) => {
       </h2>
       <ul>
         {products.map((product, index) => (
-          <li className="mb-16">
+          <li key={`${product.id}-${index}`} className="mb-16">
             <h3 className="text-sm md:text-base mb-3 text-neutral-700 dark:text-neutral-300">
               {product.date}
             </h3>
@@ -25,8 +25,8 @@ const Timeline = ({ heading }) => {
               {product.location}
             </p>
             <ul className="text-sm md:text-base list-disc ml-6 text-neutral-700 dark:text-neutral-300">
-              {product.content.map((list, index) => (
-                <li>{list}</li>
+              {product.content.map((list, i) => (
+                <li key={`${product.id}-${index}-${i}`}>{list}</li>
               ))}
             </ul>
           </li>

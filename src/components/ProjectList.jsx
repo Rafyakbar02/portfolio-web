@@ -14,6 +14,7 @@ const ProjectList = () => {
       <div className="flex flex-wrap gap-8 justify-center">
         {projects.map((project, index) => (
           <ProjectCard
+            key={`${project.id}-${index}`}
             title={project.title}
             language={project.language}
             link={project.link}

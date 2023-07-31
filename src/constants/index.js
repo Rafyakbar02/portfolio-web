@@ -78,9 +78,9 @@ export const projects = [
     id: "project-3",
     date: "",
     title: "Diskusi",
-    language: "Next.js, React, Tailwind",
+    language: "Next.js, React, MongoDB, Tailwind",
     content:
-      "A Reddit-inspired forum site designed to host and facilitate meaningful discussions among individuals with shared interests.",
+      "A simple forum site designed to post, edit and delete writings.",
     link: "https://github.com/Rafyakbar02/forum-site",
   },
   {

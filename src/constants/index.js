@@ -24,10 +24,9 @@ export const experiences = [
     title: "Python Developer Intern @ Lintasarta",
     location: "Jakarta, Indonesia",
     content: [
-      "Developed website using Python, Flask, Bootstrap and HTML/CSS that features login functionality and different directories access.",
-      "Implemented MySQL for the backend to store user information.",
-      "Coordinated regularly with mentor to assess the progress of the project and review the project requirement.",
-      "Learned how to develop a full-stack web application using Python and work collaboratively in a professional work environment.",
+      "Developed a dashboard web application using Flask, a Python web framework, to dynamically build HTML pages.",
+      "Utilized Bootstrap, a CSS framework, to quickly style the web application and implement responsive design for different devices",
+      "Used SQLite for the back end of the web application to store data such as user login information.",
     ],
   },
 ];
@@ -41,6 +40,8 @@ export const educations = [
     content: [
       "Candidate for Bachelor of Science in Computer Science",
       "Info Internetworks & Intelligence threads",
+      "Dean's List: Fall 2022, Spring 2023",
+      "Activities and Societies: Indonesian Student Association",
     ],
   },
   {
@@ -51,6 +52,8 @@ export const educations = [
     content: [
       "Associate of Science in Computer Science",
       "High School Diploma",
+      "Academic Honors",
+      "GPA: 3.86",
     ],
   },
 ];
@@ -78,16 +81,16 @@ export const projects = [
     id: "project-3",
     date: "",
     title: "Diskusi",
-    language: "Next.js, React, MongoDB, Tailwind",
+    language: "Typescript, Next.js, MongoDB, Tailwind",
     content:
-      "A simple forum site designed to post, edit and delete writings.",
+      "A simple forum site that allows posting, editing and deleting posts.",
     link: "https://github.com/Rafyakbar02/forum-site",
   },
   {
     id: "project-4",
     date: "",
     title: "Portfolio Website",
-    language: "React, Vite, Tailwind",
+    language: "Javascript, Vite, Tailwind",
     content:
       "A portfolio website project designed to showcase my skills, projects, and achievements to potential employers, which you are currently viewing.",
     link: "https://github.com/Rafyakbar02/portfolio-web",

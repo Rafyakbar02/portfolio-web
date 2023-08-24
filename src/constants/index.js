@@ -20,6 +20,18 @@ export const navLinks = [
 export const experiences = [
   {
     id: "experience-1",
+    date: "July 2023 - Current",
+    title: "Web Development Intern @ IIGF",
+    location: "Jakarta, Indonesia",
+    content: [
+      "Designed and developed an executive dashboard to facilitate viewing guaranteed infrastructure projects within government institutions for stakeholders",
+      "Coordinated with Project Division to analyze user stories and translate them to project requirements",
+      "Utilized Nextjs to make use of its main features such as SSR rendering, route handling and built-in optimizations for font and images",
+      "Applied responsive design for dynamic user experience across various screen sizes",
+    ],
+  },
+  {
+    id: "experience-2",
     date: "July 2021 - September 2021",
     title: "Python Developer Intern @ Lintasarta",
     location: "Jakarta, Indonesia",

@@ -20,8 +20,8 @@ export const navLinks = [
 export const experiences = [
   {
     id: "experience-1",
-    date: "July 2023 - Current",
-    title: "Web Development Intern @ IIGF",
+    date: "July 2023 - August 2023",
+    title: "Web Development Intern @ Indonesia Infrastructure Guarantee Fund",
     location: "Jakarta, Indonesia",
     content: [
       "Designed and developed an executive dashboard to facilitate viewing guaranteed infrastructure projects within government institutions for stakeholders",

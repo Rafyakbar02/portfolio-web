@@ -20,25 +20,24 @@ export const navLinks = [
 export const experiences = [
   {
     id: "experience-1",
-    date: "July 2023 - August 2023",
-    title: "Web Development Intern @ Indonesia Infrastructure Guarantee Fund",
-    location: "Jakarta, Indonesia",
+    date: "June 2023 - August 2023",
+    title: "Web Developer Intern @ Indonesia Infrastructure Guarantee Fund",
+    location: "Jakarta, Indonesia (Remote)",
     content: [
-      "Designed and developed an executive dashboard to facilitate viewing guaranteed infrastructure projects within government institutions for stakeholders",
-      "Coordinated with Project Division to analyze user stories and translate them to project requirements",
-      "Utilized Nextjs to make use of its main features such as SSR rendering, route handling and built-in optimizations for font and images",
-      "Applied responsive design for dynamic user experience across various screen sizes",
+      "Developed a full-stack web application using Nextjs, React, and MongoDB to display guaranteed infrastructure projects within government institutions for stakeholders",
+      "Developed a responsive and mobile-friendly design for dynamic user experience across different screen sizes using utility-first CSS framework Tailwind CSS",
+      "Collaborated with a colleague to translate user stories into project requirements, leading to improved project efficiency and completion within the project timeline",
     ],
   },
   {
     id: "experience-2",
     date: "July 2021 - September 2021",
-    title: "Python Developer Intern @ Lintasarta",
-    location: "Jakarta, Indonesia",
+    title: "Python Developer Intern @ Aplikanusa Lintasarta",
+    location: "Jakarta, Indonesia (Remote)",
     content: [
-      "Developed a dashboard web application using Flask, a Python web framework, to dynamically build HTML pages.",
-      "Utilized Bootstrap, a CSS framework, to quickly style the web application and implement responsive design for different devices",
-      "Used SQLite for the back end of the web application to store data such as user login information.",
+      "Developed a full-stack web application using Python, Flask, and SQLite to centralize employees directories/links into a single page application (SPA)",
+      "Utilized SQLite, an open source SQL engine with built-in Python support to store data in the back-end",
+      "Collaborated with 2 interns and senior developer to brainstorm and implement ideas into the app’s development",
     ],
   },
 ];
@@ -50,7 +49,7 @@ export const educations = [
     title: "Georgia Institute of Technology",
     location: "Atlanta, GA",
     content: [
-      "Candidate for Bachelor of Science in Computer Science",
+      "Bachelor of Science in Computer Science",
       "Info Internetworks & Intelligence threads",
       "Dean's List: Fall 2022, Spring 2023",
       "Activities and Societies: Indonesian Student Association",

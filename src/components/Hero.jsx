@@ -3,7 +3,7 @@ import { resume, photo } from "../assets";
 const Hero = () => {
   return (
     <div
-      className="py-12 scroll-mt-16 dark:bg-gray-950 dark:text-white flex items-center gap-8 sm:w-[750px] sm:mx-auto justify-center"
+      className="py-12 scroll-mt-16 dark:text-white flex items-center gap-8 sm:w-[750px] sm:mx-auto justify-center"
       id="Home"
     >
       <img
@@ -21,7 +21,7 @@ const Hero = () => {
         <a
           href={resume}
           target="_blank"
-          className="transition-all ease-in px-8 py-3 rounded-3xl bg-black tracking-wider dark:bg-white text-white dark:text-slate-900 hover:bg-gray-900 text-sm"
+          className="transition-all ease-in px-8 py-3 rounded-3xl bg-black tracking-wide dark:bg-white text-white dark:text-black hover:bg-neutral-900 text-sm"
         >
           Download Resume
         </a>

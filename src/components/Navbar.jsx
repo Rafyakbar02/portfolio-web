@@ -36,7 +36,7 @@ const Dropdown = ({ toggle, setToggle, darkMode, setDarkMode }) => {
 
 const Navbar = ({ toggle, setToggle, darkMode, setDarkMode }) => {
   return (
-    <nav className="bg-white dark:bg-gray-950 dark:text-white sticky top-4 border mx-4 rounded-xl px-3 py-3 z-10 shadow-md">
+    <nav className="bg-white dark:bg-neutral-950 dark:text-white sticky top-4 border mx-4 rounded-xl px-3 py-3 z-10 shadow-md">
       <div className="lg:w-[1024px] sm:mx-auto sm:flex sm:justify-between">
         <div className="flex justify-between items-center">
           <a

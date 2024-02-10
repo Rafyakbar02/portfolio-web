@@ -13,7 +13,11 @@ function App() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className={`${darkMode ? "dark bg-neutral-950" : ""} font-sans`}>
+    <div
+      className={`${
+        darkMode ? "dark bg-neutral-950" : "bg-neutral-100"
+      } font-sans`}
+    >
       <Navbar
         darkMode={darkMode}
         setDarkMode={setDarkMode}
@@ -21,7 +25,7 @@ function App() {
         setToggle={setToggle}
       />
       <Hero />
-      <Timeline heading={"Work Experience"} />
+      <Timeline heading={"Experience"} />
       <Timeline heading={"Education"} />
       <ProjectList />
       <Contact />

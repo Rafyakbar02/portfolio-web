@@ -24,7 +24,7 @@ const ProjectCard = ({ title, language, link, content }) => {
 const ProjectList = () => {
   return (
     <div
-      className="px-5 py-12 scroll-mt-12 dark:text-white sm:w-[750px] lg:w-[1024px] sm:mx-auto"
+      className="px-5 py-12 scroll-mt-12 dark:text-white lg:w-[1024px] sm:mx-auto"
       id="project"
     >
       <h2 className="text-3xl font-black text-center mb-16">Projects</h2>

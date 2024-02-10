@@ -16,7 +16,7 @@ function App() {
     <div
       className={`${
         darkMode ? "dark bg-neutral-950" : "bg-neutral-100"
-      } font-sans`}
+      } font-sans transition-colors duration-700`}
     >
       <Navbar
         darkMode={darkMode}

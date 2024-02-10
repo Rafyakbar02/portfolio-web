@@ -1,19 +1,19 @@
 export const navLinks = [
   {
     id: "Home",
-    title: "Home",
+    title: "HOME",
   },
   {
     id: "experience",
-    title: "Experience",
+    title: "EXPERIENCE",
   },
   {
     id: "education",
-    title: "Education",
+    title: "EDUCATION",
   },
   {
     id: "project",
-    title: "Project",
+    title: "PROJECT",
   },
 ];
 
@@ -71,13 +71,13 @@ export const educations = [
 
 export const projects = [
   {
-    id: "project-1",
+    id: "project-6",
     date: "",
-    title: "Student Management",
+    title: "GT Degree Scraper",
     language: "Python",
     content:
-      "A simple student database management app with features such as adding, removing, and searching for students.",
-    link: "https://github.com/Rafyakbar02/StudentManagement",
+      "A Python web scraper for extracting degree information at Georgia Tech.",
+    link: "https://github.com/Rafyakbar02/gt-degree-scraper",
   },
   {
     id: "project-2",
@@ -87,6 +87,15 @@ export const projects = [
     content:
       "A stock analysis and prediction tool that uses both technical analysis to rate and rank companies based on their potential for investment.",
     link: "https://github.com/SubugFcz/Hacklytics23",
+  },
+  {
+    id: "project-5",
+    date: "",
+    title: "NBA MVP Prediction Tool",
+    language: "Python",
+    content:
+      "Data models for predicting the MVP winner for each NBA regular season.",
+    link: "https://github.com/Rafyakbar02/ml-group-project",
   },
   {
     id: "project-3",
@@ -105,5 +114,14 @@ export const projects = [
     content:
       "A portfolio website project designed to showcase my skills, projects, and achievements to potential employers, which you are currently viewing.",
     link: "https://github.com/Rafyakbar02/portfolio-web",
+  },
+  {
+    id: "project-1",
+    date: "",
+    title: "Student Management",
+    language: "Python",
+    content:
+      "A simple student database management app with features such as adding, removing, and searching for students.",
+    link: "https://github.com/Rafyakbar02/StudentManagement",
   },
 ];

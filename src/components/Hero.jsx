@@ -3,13 +3,13 @@ import { resume, photo } from "../assets";
 const Hero = () => {
   return (
     <div
-      className="py-12 scroll-mt-16 dark:bg-slate-900 dark:text-white flex items-center gap-8 sm:w-[750px] sm:mx-auto justify-center"
+      className="py-12 scroll-mt-16 dark:bg-gray-950 dark:text-white flex items-center gap-8 sm:w-[750px] sm:mx-auto justify-center"
       id="Home"
     >
       <img
         src={photo}
         alt="photo"
-        className="ring-slate-900 dark:ring-white m-1 h-80 w-64 object-cover rounded-lg brightness-95 -z-10"
+        className="m-1 h-80 w-64 object-cover rounded-lg brightness-95"
       />
       <div className="">
         <h1 className="text-3xl md:text-6xl max-w-xs font-semibold mb-10">

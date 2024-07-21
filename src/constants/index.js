@@ -71,6 +71,16 @@ export const educations = [
 
 export const projects = [
   {
+    id: "project-7",
+    date: "",
+    title: "Catatan",
+    language: "Typescript, Next.js, Tailwind",
+    content:
+      "A simple note taking web application written in Typescript utilizing open source library Tiptap and shadcn/ui",
+    link: "https://github.com/Rafyakbar02/catatan-web",
+    preview: "https://catatan-web.netlify.app/",
+  },
+  {
     id: "project-6",
     date: "",
     title: "GT Degree Scraper",
@@ -78,6 +88,7 @@ export const projects = [
     content:
       "A Python web scraper for extracting degree information at Georgia Tech.",
     link: "https://github.com/Rafyakbar02/gt-degree-scraper",
+    preview: "",
   },
   {
     id: "project-2",
@@ -87,6 +98,7 @@ export const projects = [
     content:
       "A stock analysis and prediction tool that uses both technical analysis to rate and rank companies based on their potential for investment.",
     link: "https://github.com/SubugFcz/Hacklytics23",
+    preview: "",
   },
   {
     id: "project-5",
@@ -96,6 +108,7 @@ export const projects = [
     content:
       "Data models for predicting the MVP winner for each NBA regular season.",
     link: "https://github.com/Rafyakbar02/ml-group-project",
+    preview: "",
   },
   {
     id: "project-3",
@@ -105,6 +118,7 @@ export const projects = [
     content:
       "A simple forum site that allows posting, editing and deleting posts.",
     link: "https://github.com/Rafyakbar02/forum-site",
+    preview: "",
   },
   {
     id: "project-4",
@@ -114,14 +128,6 @@ export const projects = [
     content:
       "A portfolio website project designed to showcase my skills, projects, and achievements to potential employers, which you are currently viewing.",
     link: "https://github.com/Rafyakbar02/portfolio-web",
-  },
-  {
-    id: "project-1",
-    date: "",
-    title: "Student Management",
-    language: "Python",
-    content:
-      "A simple student database management app with features such as adding, removing, and searching for students.",
-    link: "https://github.com/Rafyakbar02/StudentManagement",
+    preview: ""
   },
 ];

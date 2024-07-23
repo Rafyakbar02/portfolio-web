@@ -82,6 +82,7 @@ const Navbar = () => {
           {navLinks.map((nav, index) => (
             <li><a href={`#${nav.id}`}>{nav.title}</a></li>
           ))}
+          <li><a href={resume} target="_blank">Resume</a></li>
         </ul>
 
         {/* Dropdown Toggle */}
@@ -96,7 +97,7 @@ const Navbar = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="origin-top fixed left-0 top-0 w-full h-screen bg-black py-4 px-8 flex flex-col"
+            className="origin-top z-10 fixed left-0 top-0 w-full h-screen bg-black py-4 px-8 flex flex-col"
           >
             {/* Dropdown Close Toggle */}
             <div className="flex justify-end">

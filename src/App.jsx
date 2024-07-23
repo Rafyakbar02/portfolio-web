@@ -11,9 +11,11 @@ import React, { useState } from "react";
 function App() {
   return (
     <div className="bg-black text-white">
-      <Navbar/>
-      {/* <Hero />
-      <Timeline heading={"Experience"} />
+      <div className="h-screen flex flex-col">
+        <Navbar/>
+        <Hero />
+      </div>
+      {/* <Timeline heading={"Experience"} />
       <Timeline heading={"Education"} />
       <ProjectList />
       <Contact />

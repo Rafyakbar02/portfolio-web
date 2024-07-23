@@ -17,7 +17,7 @@ const socialMedias = [
 const Contact = () => {
   return (
     <div className="p-5 dark:text-white">
-      <h2 className="text-xl font-semibold text-center">Find me on</h2>
+      <h2 className="text-xl font-black text-center">Connect with Me!</h2>
       <div className="flex flex-wrap justify-center gap-10 m-10">
         {socialMedias.map((social, index) => (
           <a
@@ -33,7 +33,7 @@ const Contact = () => {
               width="25"
               height="25"
             />
-            <h3 className="text-sm">{social.text}</h3>
+            <h3 className="text-sm font-semibold">{social.text}</h3>
           </a>
         ))}
       </div>

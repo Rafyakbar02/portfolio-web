@@ -16,21 +16,33 @@ export const navLinks = [
 export const experiences = [
   {
     id: "experience-1",
-    date: "June 2023 - August 2023",
-    title: "Web Developer Intern @ Indonesia Infrastructure Guarantee Fund",
-    location: "Jakarta, Indonesia (Remote)",
-    content: [
+    date: "Fall 2023 - Spring 2024",
+    position: "Capstone Project",
+    company: "Google",
+    jobdesk: [
+      "Worked in a capstone project team to develop a native collaborative whiteboarding tool for Google ChromeOS notebooks",
+      "Developed a native ChromeOS application using Typescript, Lit, and Firebase",
+      "Implemented stroke smoothing for pen drawing and undo/redo functionality for reverting whiteboard changes",
+      "Participated in and contributed to code reviews and testing to ensure the application integrity for each sprint development"
+    ]
+  },
+  {
+    id: "experience-2",
+    date: "Summer 2023",
+    position: "Web Developer Intern",
+    company: "IIGF",
+    jobdesk: [
       "Developed a full-stack web application using Nextjs, React, and MongoDB to display guaranteed infrastructure projects within government institutions for stakeholders",
       "Developed a responsive and mobile-friendly design for dynamic user experience across different screen sizes using utility-first CSS framework Tailwind CSS",
       "Collaborated with a colleague to translate user stories into project requirements, leading to improved project efficiency and completion within the project timeline",
     ],
   },
   {
-    id: "experience-2",
-    date: "July 2021 - September 2021",
-    title: "Python Developer Intern @ Aplikanusa Lintasarta",
-    location: "Jakarta, Indonesia (Remote)",
-    content: [
+    id: "experience-3",
+    date: "Summer 2021",
+    position: "Python Developer Intern",
+    company: "Lintasarta",
+    jobdesk: [
       "Developed a full-stack web application using Python, Flask, and SQLite to centralize employees directories/links into a single page application (SPA)",
       "Utilized SQLite, an open source SQL engine with built-in Python support to store data in the back-end",
       "Collaborated with 2 interns and senior developer to brainstorm and implement ideas into the app’s development",

@@ -1,6 +1,7 @@
 import {
   Navbar,
   Hero,
+  Experience,
   Timeline,
   ProjectList,
   Contact,
@@ -15,6 +16,7 @@ function App() {
         <Navbar/>
         <Hero />
       </div>
+      <Experience /> 
       {/* <Timeline heading={"Experience"} />
       <Timeline heading={"Education"} />
       <ProjectList />

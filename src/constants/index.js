@@ -92,7 +92,7 @@ export const projects = [
     id: "project-6",
     date: "",
     title: "GT Degree Scraper",
-    language: "Python",
+    language: "Python, BeautifulSoup4",
     content:
       "A Python web scraper for extracting degree information at Georgia Tech.",
     link: "https://github.com/Rafyakbar02/gt-degree-scraper",
@@ -117,25 +117,5 @@ export const projects = [
       "Data models for predicting the MVP winner for each NBA regular season.",
     link: "https://github.com/Rafyakbar02/ml-group-project",
     preview: "",
-  },
-  {
-    id: "project-3",
-    date: "",
-    title: "Diskusi",
-    language: "Typescript, Next.js, MongoDB, Tailwind",
-    content:
-      "A simple forum site that allows posting, editing and deleting posts.",
-    link: "https://github.com/Rafyakbar02/forum-site",
-    preview: "",
-  },
-  {
-    id: "project-4",
-    date: "",
-    title: "Portfolio Website",
-    language: "Javascript, Vite, Tailwind",
-    content:
-      "A portfolio website project designed to showcase my skills, projects, and achievements to potential employers, which you are currently viewing.",
-    link: "https://github.com/Rafyakbar02/portfolio-web",
-    preview: ""
   },
 ];

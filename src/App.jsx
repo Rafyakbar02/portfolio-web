@@ -17,10 +17,8 @@ function App() {
         <Hero />
       </div>
       <Experience /> 
-      {/* <Timeline heading={"Experience"} />
-      <Timeline heading={"Education"} />
       <ProjectList />
-      <Contact />
+      {/* <Contact />
       <Footer /> */}
     </div>
   );

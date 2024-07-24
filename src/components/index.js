@@ -5,6 +5,6 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Experience from "./Experience";
-import Accordion from "./Accordion";
+import Accordion from "./util/Accordion";
 
 export { Navbar, Hero, Experience, Timeline, ProjectList, Contact, Footer };

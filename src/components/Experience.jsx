@@ -1,4 +1,4 @@
-import Accordion from "./Accordion";
+import Accordion from "./util/Accordion";
 import { experiences } from "../constants";
 
 const Experience = () => {

@@ -82,7 +82,11 @@ export const projects = [
     id: "project-7",
     date: "",
     title: "Catatan",
-    language: "Typescript, Next.js, Tailwind",
+    language: [
+      "Typescript",
+      "Next.js",
+      "Tailwind"
+    ],
     content:
       "A simple note taking web application written in Typescript utilizing open source library Tiptap and shadcn/ui",
     link: "https://github.com/Rafyakbar02/catatan-web",
@@ -92,7 +96,9 @@ export const projects = [
     id: "project-6",
     date: "",
     title: "GT Degree Scraper",
-    language: "Python, BeautifulSoup4",
+    language: [
+      "Python",
+    ],
     content:
       "A Python web scraper for extracting degree information at Georgia Tech.",
     link: "https://github.com/Rafyakbar02/gt-degree-scraper",
@@ -102,7 +108,11 @@ export const projects = [
     id: "project-2",
     date: "",
     title: "Stockify",
-    language: "Python, Django, NumPy",
+    language: [
+      "Python",
+      "Django",
+      "NumPy"
+    ],
     content:
       "A stock analysis and prediction tool that uses both technical analysis to rate and rank companies based on their potential for investment.",
     link: "https://github.com/SubugFcz/Hacklytics23",
@@ -112,7 +122,9 @@ export const projects = [
     id: "project-5",
     date: "",
     title: "NBA MVP Prediction Tool",
-    language: "Python",
+    language: [
+      "Python",
+    ],
     content:
       "Data models for predicting the MVP winner for each NBA regular season.",
     link: "https://github.com/Rafyakbar02/ml-group-project",

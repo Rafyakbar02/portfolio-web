@@ -1,15 +1,23 @@
 import { catatan } from "../../assets";
 
-const Card = ({ title, language, preview, link }) => {
+const Card = ({ title, languages, preview, link }) => {
     return (
-        <div className="md:aspect-video aspect-square bg-catatan bg-top bg-cover p-8 flex flex-col justify-between">
-          <div>
-                <h3 className="text-3xl font-semibold mb-2">{title}</h3>
-                <p>{language}</p>
-          </div>
-          <div className="flex justify-between">
-            {preview.length > 0 && <a href={preview} target="_blank">Preview</a>}          
-            {link.length > 0 && <a href={link} target="_blank">Github</a>}
+        <div className="p-4 sm:p-8 rounded-2xl border">
+          {/* Project Image */}
+          <a href={preview.length > 0 ? preview : link}>
+            <img className="rounded-2xl hover:brightness-90 transition" src={catatan} alt="" />
+          </a>
+        
+          {/* Name and Tags */}
+          <div className="flex flex-col sm:flex-row sm:justify-between mt-4 items-start sm:items-center gap-2 sm:gap-0">
+            <a href={preview.length > 0 ? preview : link} className="text-xl font-semibold">{title}</a>
+          
+            {/* Tags */}
+            <ul className="flex gap-2 text-sm text-gray-500">
+              {languages.map((lang, i) => (
+                <li className="py-1 px-2 bg-gray-200 rounded-lg">{lang}</li>
+              ))}
+            </ul>
           </div>
         </div>
     );

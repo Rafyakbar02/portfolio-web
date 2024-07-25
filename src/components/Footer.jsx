@@ -1,11 +1,38 @@
 import React from "react";
+import { navLinks } from "../constants";
+import { resume } from "../assets";
 
 const Footer = () => {
   return (
-    <div className="bg-white dark:bg-neutral-950 text-neutral-700 dark:text-white  w-full p-3">
-      <p className="text-center text-sm font-semibold">
-        Copyright by Rafy Akbar 2023. All Rights Reserved.
-      </p>
+    <div className="px-8 py-8 sm:py-24 border-t flex flex-col gap-16 sm:gap-0 sm:grid sm:grid-cols-2">
+      {/* Copyright */}
+      <div className="order-last sm:order-first flex flex-col justify-center gap-1">
+        <h4 className="sm:text-lg">© 2024 Rafy Akbar. All Rights Reserved.</h4>
+        <p className="text-xs sm:text-sm text-gray-500">Made with React, Vite and TailwindCSS</p>
+      </div>
+
+      {/* Links */}
+      <div className="order-first sm:order-last grid grid-cols-2">
+        {/* Nav Links */}
+        <div>
+          <h4 className="text-sm text-gray-500 mb-2">Main</h4>
+          <ul>
+            {navLinks.map((link, i) => (
+            <li><a className="text-lg" href={link.id}>{link.title}</a></li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Socials */}
+        <div>
+          <h4 className="text-sm text-gray-500 mb-2">Contact</h4>
+          <ul className="text-lg">
+            <li><a href="https://github.com/Rafyakbar02">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/rafy-akbar/">LinkedIn</a></li>
+            <li><a href={resume}>Resume</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

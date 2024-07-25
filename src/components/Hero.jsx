@@ -3,13 +3,13 @@ import { photo } from "../assets";
 const Hero = () => {
   return (
     <div
-      className="h-full flex p-8 justify-center sm:justify-start items-center sm:items-end"
+      className="h-full flex p-8 justify-center sm:justify-start items-center"
       id="Home"
     >
       {/* Header */}
       <div>
         <h1 className="text-6xl sm:text-9xl text-center sm:text-left">
-        Hello! I'm <h1 className="font-semibold">Rafy Akbar</h1>
+        Hello! I'm <h1 className="font-semibold underline decoration-yellow-500">Rafy Akbar</h1>
         </h1>
       </div>
     </div>

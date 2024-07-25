@@ -6,7 +6,7 @@ const Card = ({ title, languages, preview, link }) => {
           {/* Project Image */}
           <a href={preview.length > 0 ? preview : link}>
             <div className="rounded-2xl overflow-hidden block">
-              <img className="hover:brightness-90 scale-110 hover:-translate-y-5 transition" src={catatan} alt="" />
+              <img src={catatan} alt="" />
             </div>
           </a>
         

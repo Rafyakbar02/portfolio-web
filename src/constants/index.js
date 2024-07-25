@@ -4,10 +4,6 @@ export const navLinks = [
     title: "Experience",
   },
   {
-    id: "education",
-    title: "Education",
-  },
-  {
     id: "project",
     title: "Projects",
   },
@@ -16,7 +12,7 @@ export const navLinks = [
 export const experiences = [
   {
     id: "experience-1",
-    date: "Fall 2023 - Spring 2024",
+    date: "2023 - 2024",
     position: "Capstone Project",
     company: "Google",
     jobdesk: [
@@ -28,7 +24,7 @@ export const experiences = [
   },
   {
     id: "experience-2",
-    date: "Summer 2023",
+    date: "2023",
     position: "Web Developer Intern",
     company: "IIGF",
     jobdesk: [
@@ -39,7 +35,19 @@ export const experiences = [
   },
   {
     id: "experience-3",
-    date: "Summer 2021",
+    date: "2022 - 2024",
+    position: "Getting my Bachelor's",
+    company: "Georgia Institute of Technology ",
+    jobdesk: [
+      "Received a Bachelor of Science (B.S.) in Computer Science",
+      "Focused in Information Internetworks and Intelligence threads",
+      "Graduated with Highest Honors",
+      "Participated in the Indonesian Student Association"
+    ]
+  },
+  {
+    id: "experience-4",
+    date: "2021",
     position: "Python Developer Intern",
     company: "Lintasarta",
     jobdesk: [
@@ -48,31 +56,15 @@ export const experiences = [
       "Collaborated with 2 interns and senior developer to brainstorm and implement ideas into the app’s development",
     ],
   },
-];
-
-export const educations = [
   {
-    id: "education-1",
-    date: "January 2022 - Current",
-    title: "Georgia Institute of Technology",
-    location: "Atlanta, GA",
-    content: [
-      "Bachelor of Science in Computer Science",
-      "Info Internetworks & Intelligence threads",
-      "Dean's List: Fall 2022, Spring 2023",
-      "Activities and Societies: Indonesian Student Association",
-    ],
-  },
-  {
-    id: "education-2",
-    date: "September 2019 - August 2021",
-    title: "Edmonds College",
-    location: "Seattle, WA",
-    content: [
-      "Associate of Science in Computer Science",
-      "High School Diploma",
-      "Academic Honors",
-      "GPA: 3.86",
+    id: "experience-5",
+    date: "2019 - 2021",
+    position: "Getting my Associate's",
+    company: "Edmonds College",
+    jobdesk: [
+      "Received an Associate of Science (A.S.) in Computer Science",
+      "Obtained a High School Diploma while taking college courses",
+      "Graduated with Academic Honors",
     ],
   },
 ];

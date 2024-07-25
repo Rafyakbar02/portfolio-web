@@ -4,7 +4,7 @@ import { resume } from "../assets";
 
 const Footer = () => {
   return (
-    <div className="px-8 py-8 sm:py-24 border-t flex flex-col gap-16 sm:gap-0 sm:grid sm:grid-cols-2">
+    <div className="px-8 pt-8 pb-32 sm:py-24 border-t flex flex-col gap-16 sm:gap-0 sm:grid sm:grid-cols-2">
       {/* Copyright */}
       <div className="order-last sm:order-first flex flex-col justify-center gap-1">
         <h4 className="sm:text-lg">© 2024 Rafy Akbar. All Rights Reserved.</h4>
@@ -16,9 +16,9 @@ const Footer = () => {
         {/* Nav Links */}
         <div>
           <h4 className="text-sm text-gray-500 mb-2">Main</h4>
-          <ul>
+          <ul className="underline decoration-yellow-500">
             {navLinks.map((link, i) => (
-            <li><a className="text-lg" href={link.id}>{link.title}</a></li>
+            <li><a className="text-lg" href={`#${link.id}`}>{link.title}</a></li>
             ))}
           </ul>
         </div>
@@ -26,10 +26,10 @@ const Footer = () => {
         {/* Socials */}
         <div>
           <h4 className="text-sm text-gray-500 mb-2">Contact</h4>
-          <ul className="text-lg">
-            <li><a href="https://github.com/Rafyakbar02">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/rafy-akbar/">LinkedIn</a></li>
-            <li><a href={resume}>Resume</a></li>
+          <ul className="text-lg underline decoration-yellow-500">
+            <li><a href="https://github.com/Rafyakbar02" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/rafy-akbar/" target="_blank">LinkedIn</a></li>
+            <li><a href={resume} target="_blank">Resume</a></li>
           </ul>
         </div>
       </div>

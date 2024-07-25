@@ -8,8 +8,8 @@ const Hero = () => {
     >
       {/* Header */}
       <div>
-        <h1 className="text-6xl sm:text-9xl text-center sm:text-left">
-        Hello! I'm <h1 className="font-semibold underline decoration-yellow-500">Rafy Akbar</h1>
+        <h1 className="text-6xl sm:text-9xl text-center sm:text-left font-extralight">
+        Hello! I'm <h1 className="font-merriweather font-bold underline decoration-yellow-500">Rafy Akbar</h1>
         </h1>
       </div>
     </div>

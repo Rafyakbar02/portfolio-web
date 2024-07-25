@@ -25,7 +25,7 @@ const ProjectList = () => {
       className="p-8"
       id="project"
     >
-      <h2 className="text-xl text-gray-600 border px-6 py-2 rounded-3xl my-8 w-fit">Recent Projects</h2>
+      <h2 className="font-merriweather text-lg text-gray-600 border px-6 py-2 rounded-3xl my-8 w-fit">Recent Projects</h2>
       <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-8">
         {projects.map((project, i) => (
           <a href={project.link} target="_blank">

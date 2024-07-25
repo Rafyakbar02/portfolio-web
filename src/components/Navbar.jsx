@@ -75,7 +75,7 @@ const Navbar = () => {
       <nav className="mx-auto flex justify-between bg-white py-4 px-8 fixed top-0 left-0 right-0 z-10">
         
         {/* Web Header */}
-        <a href="#Home" className="text-xl font-bold underline decoration-yellow-500">Rafy Akbar</a>
+        <a href="#Home" className="text-xl font-merriweather font-bold underline decoration-yellow-500">Rafy Akbar</a>
 
         {/* Navlinks */}
         <ul className="hidden text-lg sm:flex gap-10 items-center">

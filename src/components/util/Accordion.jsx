@@ -7,7 +7,7 @@ const Accordion = ({company, position, date, jobdesk}) => {
         <div className="py-6 border-b">
             <button onClick={() => setAccordionOpen(!accordionOpen)} className="grid grid-cols-2 sm:grid-cols-3 w-full text-lg text-left gap-2 items-center">
                 <p>{position}</p>
-                <p className="text-right sm:text-left font-bold">{company}</p>
+                <p className="text-right sm:text-left font-semibold">{company}</p>
                 <p className="hidden sm:block text-right">{date}</p>
                 {/* <span>{`${company} | ${position} | ${date}`}</span> */}
                 {/* {accordionOpen ? <span className="flex items-center">-</span> : <span className="flex items-center">+</span>} */}

@@ -72,7 +72,7 @@ const Navbar = () => {
   return (
     <header>
       {/* Default Static Menu */}
-      <nav className="flex justify-between py-4 px-8">
+      <nav className="flex justify-between py-4 px-8 fixed top-0 left-0 right-0 bg-white shadow-sm z-10">
         
         {/* Web Header */}
         <a href="#Home" className="text-xl">Rafy Akbar</a>

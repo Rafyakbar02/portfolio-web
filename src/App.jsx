@@ -11,7 +11,7 @@ import React, { useState } from "react";
 
 function App() {
   return (
-    <div className="bg-black text-white">
+    <div>
       <div className="h-screen flex flex-col">
         <Navbar/>
         <Hero />

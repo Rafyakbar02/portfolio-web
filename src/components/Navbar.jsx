@@ -86,7 +86,7 @@ const Navbar = () => {
         </ul>
 
         {/* Dropdown Toggle */}
-        <img src={menu} onClick={toggleMenu} className="sm:hidden h-[28px] w-[28px] cursor-pointer invert"></img>
+        <img src={menu} onClick={toggleMenu} className="sm:hidden h-[28px] w-[28px] cursor-pointer"></img>
       </nav>
 
       {/* Animated Dropdown Menu */}
@@ -97,14 +97,14 @@ const Navbar = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="origin-top z-10 fixed left-0 top-0 w-full h-screen bg-black py-4 px-8 flex flex-col"
+            className="origin-top z-10 fixed left-0 top-0 w-full h-screen py-4 bg-white px-8 flex flex-col"
           >
             {/* Dropdown Close Toggle */}
             <div className="flex justify-end">
               <img
                 src={close}
                 onClick={toggleMenu}
-                className="h-[28px] w-[28px] invert cursor-pointer"
+                className="h-[28px] w-[28px] cursor-pointer"
               ></img>
             </div>
 
@@ -119,7 +119,7 @@ const Navbar = () => {
               {navLinks.map((nav, index) => (
                 <div className="overflow-hidden">
                   <motion.div variants={linkVars}>
-                    <a href={`#${nav.id}`}>{nav.title}</a>
+                    <a href={`#${nav.id}`} onClick={toggleMenu}>{nav.title}</a>
                   </motion.div>
                 </div>
               ))}

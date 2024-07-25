@@ -5,7 +5,9 @@ const Card = ({ title, languages, preview, link }) => {
         <div className="p-4 sm:p-8 rounded-2xl border">
           {/* Project Image */}
           <a href={preview.length > 0 ? preview : link}>
-            <img className="rounded-2xl hover:brightness-90 transition" src={catatan} alt="" />
+            <div className="rounded-2xl overflow-hidden block">
+              <img className="hover:brightness-90 scale-110 hover:-translate-y-5 transition" src={catatan} alt="" />
+            </div>
           </a>
         
           {/* Name and Tags */}

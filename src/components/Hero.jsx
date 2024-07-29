@@ -1,5 +1,3 @@
-import { photo } from "../assets";
-
 const Hero = () => {
   return (
     <div

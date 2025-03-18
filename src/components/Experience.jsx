@@ -12,7 +12,7 @@ const Experience = () => {
             <div>
                 {experiences.map((exp, i) => (
                     // <Accordion company={exp.company} position={exp.position} date={exp.date} jobdesk={exp.jobdesk}/>
-                    <div className="py-6 border-b">
+                    <div key={i} className="py-6 border-b">
                         <h2 className="font-semibold text-lg">{exp.position}</h2>
                         <p>{`${exp.company} | ${exp.date}`}</p>
                     </div>

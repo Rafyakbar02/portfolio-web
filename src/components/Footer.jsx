@@ -18,7 +18,7 @@ const Footer = () => {
 					<h4 className="text-sm text-gray-500 mb-2">Main</h4>
 					<ul className="underline decoration-yellow-500">
 						{navLinks.map((link, i) => (
-							<li><a className="text-lg" href={`#${link.id}`}>{link.title}</a></li>
+							<li key={i}><a className="text-lg" href={`#${link.id}`}>{link.title}</a></li>
 						))}
 					</ul>
 				</div>

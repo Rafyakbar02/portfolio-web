@@ -79,7 +79,7 @@ const Navbar = () => {
 				{/* Navlinks */}
 				<ul className="hidden text-lg sm:flex gap-10 items-center">
 					{navLinks.map((nav, index) => (
-						<li><a className="underline decoration-yellow-500" href={`#${nav.id}`}>{nav.title}</a></li>
+						<li key={index}><a className="underline decoration-yellow-500" href={`#${nav.id}`}>{nav.title}</a></li>
 					))}
 				</ul>
 

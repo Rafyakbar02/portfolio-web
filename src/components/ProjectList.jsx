@@ -11,7 +11,7 @@ const projects = [
 		name: "GT Degree Scraper",
 		link: "https://github.com/Rafyakbar02/gt-degree-scraper",
 		image: degreescraper,
-		desc: "A web scraper designed for viewing degree requirements"
+		desc: "A Georgia Tech degree web scraper"
 	},
 	{
 		name: "Stockify",
@@ -38,7 +38,7 @@ const ProjectList = () => {
 				{projects.map((project, i) => (
 					<a href={project.link} className="border p-6 rounded-3xl" target="_blank">
 						<img src={project.image} className="w-full rounded-2xl" />
-						<h2 className="font-merriweather text-lg mt-4 mb-2">{project.name}</h2>
+						<h2 className="font-merriweather text-xl mt-4 mb-2 underline decoration-yellow-500">{project.name}</h2>
 						<p className="text-gray-500 text-base">{project.desc}</p>
 					</a>
 				))}

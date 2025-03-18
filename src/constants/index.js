@@ -11,7 +11,15 @@ export const navLinks = [
 
 export const experiences = [
   {
-    id: "experience-1",
+    id: "experience-6",
+    date: "2024 - Present",
+    position: "Solution Engineering Analyst",
+    company: "Deloitte",
+    jobdesk: [
+    ]
+  },
+  {
+    id: "experience-5",
     date: "2023 - 2024",
     position: "Capstone Project",
     company: "Google",
@@ -23,10 +31,10 @@ export const experiences = [
     ]
   },
   {
-    id: "experience-2",
+    id: "experience-4",
     date: "2023",
     position: "Web Developer Intern",
-    company: "IIGF",
+    company: "Indonesian Infrastructure Guarantee Fund",
     jobdesk: [
       "Developed a full-stack web application using Nextjs, React, and MongoDB to display guaranteed infrastructure projects within government institutions for stakeholders",
       "Developed a responsive and mobile-friendly design for dynamic user experience across different screen sizes using utility-first CSS framework Tailwind CSS",
@@ -46,7 +54,7 @@ export const experiences = [
     ]
   },
   {
-    id: "experience-4",
+    id: "experience-2",
     date: "2021",
     position: "Python Developer Intern",
     company: "Lintasarta",
@@ -57,7 +65,7 @@ export const experiences = [
     ],
   },
   {
-    id: "experience-5",
+    id: "experience-1",
     date: "2019 - 2021",
     position: "Getting my Associate's",
     company: "Edmonds College",

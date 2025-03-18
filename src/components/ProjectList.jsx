@@ -2,20 +2,28 @@ import { catatan, degreescraper, nba, stockify } from "../assets";
 
 const projects = [
 	{
+		name: "Catatan",
 		link: "https://catatan-web.netlify.app/",
 		image: catatan,
+		desc: "A simple note taking web application"
 	},
 	{
+		name: "GT Degree Scraper",
 		link: "https://github.com/Rafyakbar02/gt-degree-scraper",
 		image: degreescraper,
+		desc: "A web scraper designed for viewing degree requirements"
 	},
 	{
+		name: "Stockify",
 		link: "https://github.com/SubugFcz/Hacklytics23",
 		image: stockify,
+		desc: "A stock analysis and prediction tool"
 	},
 	{
+		name: "NBA MVP Predictor",
 		link: "https://github.com/Rafyakbar02/ml-group-project",
 		image: nba,
+		desc: "A prediction model for NBA Season MVP"
 	},
 ]
 
@@ -28,8 +36,10 @@ const ProjectList = () => {
 			<h2 className="font-merriweather text-lg text-gray-600 border px-6 py-2 rounded-3xl my-8 w-fit">Recent Projects</h2>
 			<div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-8">
 				{projects.map((project, i) => (
-					<a href={project.link} target="_blank">
-						<img src={project.image} className="w-full rounded-2xl hover:scale-[0.97] hover:brightness-110 transition" />
+					<a href={project.link} className="border p-6 rounded-3xl" target="_blank">
+						<img src={project.image} className="w-full rounded-2xl" />
+						<h2 className="font-merriweather text-lg mt-4 mb-2">{project.name}</h2>
+						<p className="text-gray-500 text-base">{project.desc}</p>
 					</a>
 				))}
 			</div>

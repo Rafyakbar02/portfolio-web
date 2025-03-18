@@ -1,6 +1,12 @@
-import { catatan, degreescraper, nba, stockify } from "../assets";
+import { catatan, degreescraper, nba, stockify, budgetin } from "../assets";
 
 const projects = [
+	{
+		name: "Budgetin",
+		link: "https://github.com/Rafyakbar02/budget-app",
+		image: budgetin,
+		desc: "A simple and intuitive budgeting mobile app"
+	},
 	{
 		name: "Catatan",
 		link: "https://catatan-web.netlify.app/",

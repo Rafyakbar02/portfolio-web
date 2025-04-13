@@ -9,7 +9,7 @@ const Hero = () => {
 			{/* Header */}
 			<div className="flex flex-col lg:flex-row items-center gap-10">
 				<img src={my_photo} className="rounded-3xl sm:max-w-md" alt="" srcSet="" />
-				<div className="items-center sm:items-start flex flex-col">
+				<div className="items-center lg:items-start flex flex-col">
 					<h1 className="text-6xl md:text-7xl lg:text-8xl text-center lg:text-left font-extralight mb-4">
 						Hello! I'm <span className="font-merriweather font-bold underline decoration-yellow-500 mb-6">Rafy Akbar</span>
 					</h1>

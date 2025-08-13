@@ -3,7 +3,7 @@ import { my_photo, resume } from "../assets";
 const Hero = () => {
 	return (
 		<div
-			className="h-full flex p-8 justify-center items-center"
+			className="h-full flex p-8 pt-16 justify-center items-center"
 			id="Home"
 		>
 			{/* Header */}

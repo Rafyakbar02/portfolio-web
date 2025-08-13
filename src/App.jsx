@@ -29,7 +29,7 @@ function App() {
 
 	return (
 		<div className="max-w-7xl m-auto">
-			<div className="h-screen flex flex-col">
+			<div className="flex flex-col">
 				<Navbar />
 				<Hero />
 			</div>

@@ -1,3 +1,5 @@
+import { catatan, budgetin, degreescraper, stockify, nba } from "../assets";
+
 export const navLinks = [
 	{
 		id: "experience",
@@ -79,55 +81,33 @@ export const experiences = [
 
 export const projects = [
 	{
-		id: "project-7",
-		date: "",
-		title: "Catatan",
-		language: [
-			"Typescript",
-			"Next.js",
-			"Tailwind"
-		],
-		content:
-			"A simple note taking web application written in Typescript utilizing open source library Tiptap and shadcn/ui",
-		link: "https://github.com/Rafyakbar02/catatan-web",
-		preview: "https://catatan-web.netlify.app/",
+		name: "Budgetin",
+		link: "https://github.com/Rafyakbar02/budget-app",
+		image: budgetin,
+		desc: "A simple and intuitive budgeting mobile app"
 	},
 	{
-		id: "project-6",
-		date: "",
-		title: "GT Degree Scraper",
-		language: [
-			"Python",
-		],
-		content:
-			"A Python web scraper for extracting degree information at Georgia Tech.",
+		name: "Catatan",
+		link: "https://catatan-web.netlify.app/",
+		image: catatan,
+		desc: "A simple note taking web application"
+	},
+	{
+		name: "GT Degree Scraper",
 		link: "https://github.com/Rafyakbar02/gt-degree-scraper",
-		preview: "",
+		image: degreescraper,
+		desc: "A Georgia Tech degree web scraper"
 	},
 	{
-		id: "project-2",
-		date: "",
-		title: "Stockify",
-		language: [
-			"Python",
-			"Django",
-			"NumPy"
-		],
-		content:
-			"A stock analysis and prediction tool that uses both technical analysis to rate and rank companies based on their potential for investment.",
+		name: "Stockify",
 		link: "https://github.com/SubugFcz/Hacklytics23",
-		preview: "",
+		image: stockify,
+		desc: "A stock analysis and prediction tool"
 	},
 	{
-		id: "project-5",
-		date: "",
-		title: "NBA MVP Prediction Tool",
-		language: [
-			"Python",
-		],
-		content:
-			"Data models for predicting the MVP winner for each NBA regular season.",
+		name: "NBA MVP Predictor",
 		link: "https://github.com/Rafyakbar02/ml-group-project",
-		preview: "",
+		image: nba,
+		desc: "A prediction model for NBA Season MVP"
 	},
-];
+]

@@ -5,6 +5,12 @@
 @layer base {
     html {
         @apply scroll-smooth;
-        font-family: 'Inter', sans-serif;
+        font-family: "Instrument Sans", "Notable", sans-serif;
     }
+}
+
+.notable-regular {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
